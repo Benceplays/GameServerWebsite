@@ -4,6 +4,7 @@ body{
     color: #fff;
     font-weight: bold;
 }
+
 .box{
     width: 450px;
     height: 250px;
@@ -16,7 +17,7 @@ body{
     float: left;
     text-align: center;
 }
-.box:hover{ scale: 1.1; }
+.box:hover{ scale: 1.1; background-color: rgba(50, 50, 50, 0.5); }
 #showbutton{
     background-color: rgb(250, 97, 2);
     border: 1px solid #fff;
@@ -33,6 +34,34 @@ body{
 @media only screen and (max-width: 1800px){
     .beginnerbox{ margin-left: 5%; }
 } 
+.infodiv{
+    background-color: rgba(50, 50, 50, 0.8);
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: center;
+}
+.infodiv:hover{scale: 1.1; background-color: rgba(50, 50, 50, 0.5);}
+.joinbutton{
+    background-color: rgb(250, 97, 2);
+    border-radius: 10px;
+    padding: 1%;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.joinbutton:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+
+
+
 /* ---------- NAVIGATION ---------- */
 .navbar{
     background-color: #1E202F;
