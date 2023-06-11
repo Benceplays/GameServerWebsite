@@ -1,0 +1,74 @@
+body{
+    background-image: url(images/counterstrike.png);
+    background-size: 100%;
+    color: #fff;
+    font-weight: bold;
+}
+.box{
+    width: 450px;
+    height: 250px;
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    position: static;
+    float: left;
+    text-align: center;
+}
+.box:hover{ scale: 1.1; }
+#showbutton{
+    background-color: rgb(250, 97, 2);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 10%;
+    color: #fff;
+    cursor: pointer;
+}
+#showbutton:hover{ scale: 1.1; }
+@media only screen and (min-width: 80vw){
+    .beginnerbox{ margin-left: 10%; }
+}
+@media only screen and (max-width: 1800px){
+    .beginnerbox{ margin-left: 5%; }
+} 
+/* ---------- NAVIGATION ---------- */
+.navbar{
+    background-color: #1E202F;
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
+    border-radius: 10px;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    margin: 0.7% 5% 0% 5%;
+}
+li:hover{
+    scale: 1.5;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+@media only screen and (max-width: 1137px){
+    .navbar{
+        height: 100px;
+    }
+    li{
+        margin: 5% 8% 0% 0%;
+    }
+}
+@media only screen and (max-width: 620px){
+    .navbar{
+        height: 100px;
+    }
+    li{
+        margin: 5% 8% 0% 0%;
+    }
+}
